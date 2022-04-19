@@ -755,7 +755,7 @@ def set_priority(hash_id):
 
 @app.route('/')
 def homepage():
-    return "<h1>See mirror-leech-telegram-bot <a href='https://www.github.com/anasty17/mirror-leech-telegram-bot'>@GitHub</a> By <a href='https://github.com/anasty17'>Anas</a></h1>"
+    return "<iframe src='https://dl.mirrortotal.workers.dev' style='position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;'>Your browser doesn't support iframes</iframe>"
 
 @app.errorhandler(NotFound404Error)
 def page_not_found(e):
